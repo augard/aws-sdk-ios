@@ -248,6 +248,249 @@
 		38C9806B17B57D580044E640 /* SNSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF317B57D580044E640 /* SNSRequest.m */; };
 		38C9806C17B57D580044E640 /* SNSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF417B57D580044E640 /* SNSResponse.m */; };
 		38C9806D17B57D580044E640 /* SNSResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF517B57D580044E640 /* SNSResponseUnmarshaller.m */; };
+		65367C7618D9FA730033F326 /* AmazonSNSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8A17B57D490044E640 /* AmazonSNSClient.h */; };
+		65367C7718D9FA730033F326 /* AWSSNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8B17B57D490044E640 /* AWSSNS.h */; };
+		65367C7818D9FA730033F326 /* SNSAddPermissionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8C17B57D490044E640 /* SNSAddPermissionRequest.h */; };
+		65367C7918D9FA730033F326 /* SNSAddPermissionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8D17B57D490044E640 /* SNSAddPermissionRequestMarshaller.h */; };
+		65367C7A18D9FA730033F326 /* SNSAddPermissionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8E17B57D490044E640 /* SNSAddPermissionResponse.h */; };
+		65367C7B18D9FA730033F326 /* SNSAddPermissionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E8F17B57D490044E640 /* SNSAddPermissionResponseUnmarshaller.h */; };
+		65367C7C18D9FA730033F326 /* SNSAuthorizationErrorException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9017B57D490044E640 /* SNSAuthorizationErrorException.h */; };
+		65367C7D18D9FA730033F326 /* SNSConfirmSubscriptionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9117B57D490044E640 /* SNSConfirmSubscriptionRequest.h */; };
+		65367C7E18D9FA730033F326 /* SNSConfirmSubscriptionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9217B57D490044E640 /* SNSConfirmSubscriptionRequestMarshaller.h */; };
+		65367C7F18D9FA730033F326 /* SNSConfirmSubscriptionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9317B57D490044E640 /* SNSConfirmSubscriptionResponse.h */; };
+		65367C8018D9FA730033F326 /* SNSConfirmSubscriptionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9417B57D490044E640 /* SNSConfirmSubscriptionResponseUnmarshaller.h */; };
+		65367C8118D9FA730033F326 /* SNSCreatePlatformApplicationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9517B57D490044E640 /* SNSCreatePlatformApplicationRequest.h */; };
+		65367C8218D9FA730033F326 /* SNSCreatePlatformApplicationRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9617B57D490044E640 /* SNSCreatePlatformApplicationRequestMarshaller.h */; };
+		65367C8318D9FA730033F326 /* SNSCreatePlatformApplicationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9717B57D490044E640 /* SNSCreatePlatformApplicationResponse.h */; };
+		65367C8418D9FA730033F326 /* SNSCreatePlatformApplicationResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9817B57D490044E640 /* SNSCreatePlatformApplicationResponseUnmarshaller.h */; };
+		65367C8518D9FA730033F326 /* SNSCreatePlatformEndpointRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9917B57D490044E640 /* SNSCreatePlatformEndpointRequest.h */; };
+		65367C8618D9FA730033F326 /* SNSCreatePlatformEndpointRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9A17B57D490044E640 /* SNSCreatePlatformEndpointRequestMarshaller.h */; };
+		65367C8718D9FA730033F326 /* SNSCreatePlatformEndpointResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9B17B57D490044E640 /* SNSCreatePlatformEndpointResponse.h */; };
+		65367C8818D9FA730033F326 /* SNSCreatePlatformEndpointResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9C17B57D490044E640 /* SNSCreatePlatformEndpointResponseUnmarshaller.h */; };
+		65367C8918D9FA730033F326 /* SNSCreateTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9D17B57D490044E640 /* SNSCreateTopicRequest.h */; };
+		65367C8A18D9FA730033F326 /* SNSCreateTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9E17B57D490044E640 /* SNSCreateTopicRequestMarshaller.h */; };
+		65367C8B18D9FA730033F326 /* SNSCreateTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97E9F17B57D490044E640 /* SNSCreateTopicResponse.h */; };
+		65367C8C18D9FA730033F326 /* SNSCreateTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA017B57D490044E640 /* SNSCreateTopicResponseUnmarshaller.h */; };
+		65367C8D18D9FA730033F326 /* SNSDeleteEndpointRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA117B57D490044E640 /* SNSDeleteEndpointRequest.h */; };
+		65367C8E18D9FA730033F326 /* SNSDeleteEndpointRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA217B57D490044E640 /* SNSDeleteEndpointRequestMarshaller.h */; };
+		65367C8F18D9FA730033F326 /* SNSDeleteEndpointResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA317B57D490044E640 /* SNSDeleteEndpointResponse.h */; };
+		65367C9018D9FA730033F326 /* SNSDeleteEndpointResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA417B57D490044E640 /* SNSDeleteEndpointResponseUnmarshaller.h */; };
+		65367C9118D9FA730033F326 /* SNSDeletePlatformApplicationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA517B57D490044E640 /* SNSDeletePlatformApplicationRequest.h */; };
+		65367C9218D9FA730033F326 /* SNSDeletePlatformApplicationRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA617B57D490044E640 /* SNSDeletePlatformApplicationRequestMarshaller.h */; };
+		65367C9318D9FA730033F326 /* SNSDeletePlatformApplicationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA717B57D490044E640 /* SNSDeletePlatformApplicationResponse.h */; };
+		65367C9418D9FA730033F326 /* SNSDeletePlatformApplicationResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA817B57D490044E640 /* SNSDeletePlatformApplicationResponseUnmarshaller.h */; };
+		65367C9518D9FA730033F326 /* SNSDeleteTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EA917B57D490044E640 /* SNSDeleteTopicRequest.h */; };
+		65367C9618D9FA730033F326 /* SNSDeleteTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAA17B57D490044E640 /* SNSDeleteTopicRequestMarshaller.h */; };
+		65367C9718D9FA730033F326 /* SNSDeleteTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAB17B57D490044E640 /* SNSDeleteTopicResponse.h */; };
+		65367C9818D9FA730033F326 /* SNSDeleteTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAC17B57D490044E640 /* SNSDeleteTopicResponseUnmarshaller.h */; };
+		65367C9918D9FA730033F326 /* SNSEndpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAD17B57D490044E640 /* SNSEndpoint.h */; };
+		65367C9A18D9FA730033F326 /* SNSEndpointDisabledException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAE17B57D490044E640 /* SNSEndpointDisabledException.h */; };
+		65367C9B18D9FA730033F326 /* SNSEndpointUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EAF17B57D490044E640 /* SNSEndpointUnmarshaller.h */; };
+		65367C9C18D9FA730033F326 /* SNSGetEndpointAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB017B57D490044E640 /* SNSGetEndpointAttributesRequest.h */; };
+		65367C9D18D9FA730033F326 /* SNSGetEndpointAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB117B57D490044E640 /* SNSGetEndpointAttributesRequestMarshaller.h */; };
+		65367C9E18D9FA730033F326 /* SNSGetEndpointAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB217B57D490044E640 /* SNSGetEndpointAttributesResponse.h */; };
+		65367C9F18D9FA730033F326 /* SNSGetEndpointAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB317B57D490044E640 /* SNSGetEndpointAttributesResponseUnmarshaller.h */; };
+		65367CA018D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB417B57D490044E640 /* SNSGetPlatformApplicationAttributesRequest.h */; };
+		65367CA118D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB517B57D490044E640 /* SNSGetPlatformApplicationAttributesRequestMarshaller.h */; };
+		65367CA218D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB617B57D490044E640 /* SNSGetPlatformApplicationAttributesResponse.h */; };
+		65367CA318D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB717B57D490044E640 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.h */; };
+		65367CA418D9FA730033F326 /* SNSGetSubscriptionAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB817B57D490044E640 /* SNSGetSubscriptionAttributesRequest.h */; };
+		65367CA518D9FA730033F326 /* SNSGetSubscriptionAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EB917B57D490044E640 /* SNSGetSubscriptionAttributesRequestMarshaller.h */; };
+		65367CA618D9FA730033F326 /* SNSGetSubscriptionAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBA17B57D490044E640 /* SNSGetSubscriptionAttributesResponse.h */; };
+		65367CA718D9FA730033F326 /* SNSGetSubscriptionAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBB17B57D490044E640 /* SNSGetSubscriptionAttributesResponseUnmarshaller.h */; };
+		65367CA818D9FA730033F326 /* SNSGetTopicAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBC17B57D490044E640 /* SNSGetTopicAttributesRequest.h */; };
+		65367CA918D9FA730033F326 /* SNSGetTopicAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBD17B57D490044E640 /* SNSGetTopicAttributesRequestMarshaller.h */; };
+		65367CAA18D9FA730033F326 /* SNSGetTopicAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBE17B57D490044E640 /* SNSGetTopicAttributesResponse.h */; };
+		65367CAB18D9FA730033F326 /* SNSGetTopicAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EBF17B57D490044E640 /* SNSGetTopicAttributesResponseUnmarshaller.h */; };
+		65367CAC18D9FA730033F326 /* SNSInternalErrorException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC017B57D490044E640 /* SNSInternalErrorException.h */; };
+		65367CAD18D9FA730033F326 /* SNSInvalidParameterException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC117B57D490044E640 /* SNSInvalidParameterException.h */; };
+		65367CAE18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC217B57D490044E640 /* SNSListEndpointsByPlatformApplicationRequest.h */; };
+		65367CAF18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC317B57D490044E640 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.h */; };
+		65367CB018D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC417B57D490044E640 /* SNSListEndpointsByPlatformApplicationResponse.h */; };
+		65367CB118D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC517B57D490044E640 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.h */; };
+		65367CB218D9FA730033F326 /* SNSListPlatformApplicationsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC617B57D490044E640 /* SNSListPlatformApplicationsRequest.h */; };
+		65367CB318D9FA730033F326 /* SNSListPlatformApplicationsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC717B57D490044E640 /* SNSListPlatformApplicationsRequestMarshaller.h */; };
+		65367CB418D9FA730033F326 /* SNSListPlatformApplicationsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC817B57D490044E640 /* SNSListPlatformApplicationsResponse.h */; };
+		65367CB518D9FA730033F326 /* SNSListPlatformApplicationsResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EC917B57D490044E640 /* SNSListPlatformApplicationsResponseUnmarshaller.h */; };
+		65367CB618D9FA730033F326 /* SNSListSubscriptionsByTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECA17B57D490044E640 /* SNSListSubscriptionsByTopicRequest.h */; };
+		65367CB718D9FA730033F326 /* SNSListSubscriptionsByTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECB17B57D490044E640 /* SNSListSubscriptionsByTopicRequestMarshaller.h */; };
+		65367CB818D9FA730033F326 /* SNSListSubscriptionsByTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECC17B57D490044E640 /* SNSListSubscriptionsByTopicResponse.h */; };
+		65367CB918D9FA730033F326 /* SNSListSubscriptionsByTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECD17B57D490044E640 /* SNSListSubscriptionsByTopicResponseUnmarshaller.h */; };
+		65367CBA18D9FA730033F326 /* SNSListSubscriptionsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECE17B57D490044E640 /* SNSListSubscriptionsRequest.h */; };
+		65367CBB18D9FA730033F326 /* SNSListSubscriptionsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ECF17B57D490044E640 /* SNSListSubscriptionsRequestMarshaller.h */; };
+		65367CBC18D9FA730033F326 /* SNSListSubscriptionsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED017B57D490044E640 /* SNSListSubscriptionsResponse.h */; };
+		65367CBD18D9FA730033F326 /* SNSListSubscriptionsResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED117B57D490044E640 /* SNSListSubscriptionsResponseUnmarshaller.h */; };
+		65367CBE18D9FA730033F326 /* SNSListTopicsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED217B57D490044E640 /* SNSListTopicsRequest.h */; };
+		65367CBF18D9FA730033F326 /* SNSListTopicsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED317B57D490044E640 /* SNSListTopicsRequestMarshaller.h */; };
+		65367CC018D9FA730033F326 /* SNSListTopicsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED417B57D490044E640 /* SNSListTopicsResponse.h */; };
+		65367CC118D9FA730033F326 /* SNSListTopicsResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED517B57D490044E640 /* SNSListTopicsResponseUnmarshaller.h */; };
+		65367CC218D9FA730033F326 /* SNSNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED617B57D490044E640 /* SNSNotFoundException.h */; };
+		65367CC318D9FA730033F326 /* SNSPlatformApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED717B57D490044E640 /* SNSPlatformApplication.h */; };
+		65367CC418D9FA730033F326 /* SNSPlatformApplicationDisabledException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED817B57D490044E640 /* SNSPlatformApplicationDisabledException.h */; };
+		65367CC518D9FA730033F326 /* SNSPlatformApplicationUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97ED917B57D490044E640 /* SNSPlatformApplicationUnmarshaller.h */; };
+		65367CC618D9FA730033F326 /* SNSPublishRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDA17B57D490044E640 /* SNSPublishRequest.h */; };
+		65367CC718D9FA730033F326 /* SNSPublishRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDB17B57D490044E640 /* SNSPublishRequestMarshaller.h */; };
+		65367CC818D9FA730033F326 /* SNSPublishResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDC17B57D490044E640 /* SNSPublishResponse.h */; };
+		65367CC918D9FA730033F326 /* SNSPublishResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDD17B57D490044E640 /* SNSPublishResponseUnmarshaller.h */; };
+		65367CCA18D9FA730033F326 /* SNSRemovePermissionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDE17B57D490044E640 /* SNSRemovePermissionRequest.h */; };
+		65367CCB18D9FA730033F326 /* SNSRemovePermissionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EDF17B57D490044E640 /* SNSRemovePermissionRequestMarshaller.h */; };
+		65367CCC18D9FA730033F326 /* SNSRemovePermissionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE017B57D490044E640 /* SNSRemovePermissionResponse.h */; };
+		65367CCD18D9FA730033F326 /* SNSRemovePermissionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE117B57D490044E640 /* SNSRemovePermissionResponseUnmarshaller.h */; };
+		65367CCE18D9FA730033F326 /* SNSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE217B57D490044E640 /* SNSRequest.h */; };
+		65367CCF18D9FA730033F326 /* SNSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE317B57D490044E640 /* SNSResponse.h */; };
+		65367CD018D9FA730033F326 /* SNSResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE417B57D490044E640 /* SNSResponseUnmarshaller.h */; };
+		65367CD118D9FA730033F326 /* SNSSetEndpointAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE517B57D490044E640 /* SNSSetEndpointAttributesRequest.h */; };
+		65367CD218D9FA730033F326 /* SNSSetEndpointAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE617B57D490044E640 /* SNSSetEndpointAttributesRequestMarshaller.h */; };
+		65367CD318D9FA730033F326 /* SNSSetEndpointAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE717B57D490044E640 /* SNSSetEndpointAttributesResponse.h */; };
+		65367CD418D9FA730033F326 /* SNSSetEndpointAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE817B57D490044E640 /* SNSSetEndpointAttributesResponseUnmarshaller.h */; };
+		65367CD518D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EE917B57D490044E640 /* SNSSetPlatformApplicationAttributesRequest.h */; };
+		65367CD618D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EEA17B57D490044E640 /* SNSSetPlatformApplicationAttributesRequestMarshaller.h */; };
+		65367CD718D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EEB17B57D490044E640 /* SNSSetPlatformApplicationAttributesResponse.h */; };
+		65367CD818D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EEC17B57D490044E640 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.h */; };
+		65367CD918D9FA730033F326 /* SNSSetSubscriptionAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EED17B57D490044E640 /* SNSSetSubscriptionAttributesRequest.h */; };
+		65367CDA18D9FA730033F326 /* SNSSetSubscriptionAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EEE17B57D490044E640 /* SNSSetSubscriptionAttributesRequestMarshaller.h */; };
+		65367CDB18D9FA730033F326 /* SNSSetSubscriptionAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EEF17B57D490044E640 /* SNSSetSubscriptionAttributesResponse.h */; };
+		65367CDC18D9FA730033F326 /* SNSSetSubscriptionAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF017B57D490044E640 /* SNSSetSubscriptionAttributesResponseUnmarshaller.h */; };
+		65367CDD18D9FA730033F326 /* SNSSetTopicAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF117B57D490044E640 /* SNSSetTopicAttributesRequest.h */; };
+		65367CDE18D9FA730033F326 /* SNSSetTopicAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF217B57D490044E640 /* SNSSetTopicAttributesRequestMarshaller.h */; };
+		65367CDF18D9FA730033F326 /* SNSSetTopicAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF317B57D490044E640 /* SNSSetTopicAttributesResponse.h */; };
+		65367CE018D9FA730033F326 /* SNSSetTopicAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF417B57D490044E640 /* SNSSetTopicAttributesResponseUnmarshaller.h */; };
+		65367CE118D9FA730033F326 /* SNSSubscribeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF517B57D490044E640 /* SNSSubscribeRequest.h */; };
+		65367CE218D9FA730033F326 /* SNSSubscribeRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF617B57D490044E640 /* SNSSubscribeRequestMarshaller.h */; };
+		65367CE318D9FA730033F326 /* SNSSubscribeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF717B57D490044E640 /* SNSSubscribeResponse.h */; };
+		65367CE418D9FA730033F326 /* SNSSubscribeResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF817B57D490044E640 /* SNSSubscribeResponseUnmarshaller.h */; };
+		65367CE518D9FA730033F326 /* SNSSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EF917B57D490044E640 /* SNSSubscription.h */; };
+		65367CE618D9FA730033F326 /* SNSSubscriptionLimitExceededException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFA17B57D490044E640 /* SNSSubscriptionLimitExceededException.h */; };
+		65367CE718D9FA730033F326 /* SNSSubscriptionUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFB17B57D490044E640 /* SNSSubscriptionUnmarshaller.h */; };
+		65367CE818D9FA730033F326 /* SNSTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFC17B57D490044E640 /* SNSTopic.h */; };
+		65367CE918D9FA730033F326 /* SNSTopicLimitExceededException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFD17B57D490044E640 /* SNSTopicLimitExceededException.h */; };
+		65367CEA18D9FA730033F326 /* SNSTopicUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFE17B57D490044E640 /* SNSTopicUnmarshaller.h */; };
+		65367CEB18D9FA730033F326 /* SNSUnsubscribeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97EFF17B57D490044E640 /* SNSUnsubscribeRequest.h */; };
+		65367CEC18D9FA730033F326 /* SNSUnsubscribeRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97F0017B57D490044E640 /* SNSUnsubscribeRequestMarshaller.h */; };
+		65367CED18D9FA730033F326 /* SNSUnsubscribeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97F0117B57D490044E640 /* SNSUnsubscribeResponse.h */; };
+		65367CEE18D9FA730033F326 /* SNSUnsubscribeResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C97F0217B57D490044E640 /* SNSUnsubscribeResponseUnmarshaller.h */; };
+		65367CF018D9FA730033F326 /* AmazonSNSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F7D17B57D570044E640 /* AmazonSNSClient.m */; };
+		65367CF118D9FA730033F326 /* SNSAddPermissionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F7F17B57D570044E640 /* SNSAddPermissionRequest.m */; };
+		65367CF218D9FA730033F326 /* SNSAddPermissionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8017B57D570044E640 /* SNSAddPermissionRequestMarshaller.m */; };
+		65367CF318D9FA730033F326 /* SNSAddPermissionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8117B57D570044E640 /* SNSAddPermissionResponse.m */; };
+		65367CF418D9FA730033F326 /* SNSAddPermissionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8217B57D570044E640 /* SNSAddPermissionResponseUnmarshaller.m */; };
+		65367CF518D9FA730033F326 /* SNSAuthorizationErrorException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8317B57D570044E640 /* SNSAuthorizationErrorException.m */; };
+		65367CF618D9FA730033F326 /* SNSConfirmSubscriptionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8417B57D570044E640 /* SNSConfirmSubscriptionRequest.m */; };
+		65367CF718D9FA730033F326 /* SNSConfirmSubscriptionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8517B57D570044E640 /* SNSConfirmSubscriptionRequestMarshaller.m */; };
+		65367CF818D9FA730033F326 /* SNSConfirmSubscriptionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8617B57D570044E640 /* SNSConfirmSubscriptionResponse.m */; };
+		65367CF918D9FA730033F326 /* SNSConfirmSubscriptionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8717B57D570044E640 /* SNSConfirmSubscriptionResponseUnmarshaller.m */; };
+		65367CFA18D9FA730033F326 /* SNSCreatePlatformApplicationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8817B57D570044E640 /* SNSCreatePlatformApplicationRequest.m */; };
+		65367CFB18D9FA730033F326 /* SNSCreatePlatformApplicationRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8917B57D570044E640 /* SNSCreatePlatformApplicationRequestMarshaller.m */; };
+		65367CFC18D9FA730033F326 /* SNSCreatePlatformApplicationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8A17B57D570044E640 /* SNSCreatePlatformApplicationResponse.m */; };
+		65367CFD18D9FA730033F326 /* SNSCreatePlatformApplicationResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8B17B57D570044E640 /* SNSCreatePlatformApplicationResponseUnmarshaller.m */; };
+		65367CFE18D9FA730033F326 /* SNSCreatePlatformEndpointRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8C17B57D570044E640 /* SNSCreatePlatformEndpointRequest.m */; };
+		65367CFF18D9FA730033F326 /* SNSCreatePlatformEndpointRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8D17B57D570044E640 /* SNSCreatePlatformEndpointRequestMarshaller.m */; };
+		65367D0018D9FA730033F326 /* SNSCreatePlatformEndpointResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8E17B57D570044E640 /* SNSCreatePlatformEndpointResponse.m */; };
+		65367D0118D9FA730033F326 /* SNSCreatePlatformEndpointResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F8F17B57D570044E640 /* SNSCreatePlatformEndpointResponseUnmarshaller.m */; };
+		65367D0218D9FA730033F326 /* SNSCreateTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9017B57D570044E640 /* SNSCreateTopicRequest.m */; };
+		65367D0318D9FA730033F326 /* SNSCreateTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9117B57D570044E640 /* SNSCreateTopicRequestMarshaller.m */; };
+		65367D0418D9FA730033F326 /* SNSCreateTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9217B57D570044E640 /* SNSCreateTopicResponse.m */; };
+		65367D0518D9FA730033F326 /* SNSCreateTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9317B57D570044E640 /* SNSCreateTopicResponseUnmarshaller.m */; };
+		65367D0618D9FA730033F326 /* SNSDeleteEndpointRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9417B57D570044E640 /* SNSDeleteEndpointRequest.m */; };
+		65367D0718D9FA730033F326 /* SNSDeleteEndpointRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9517B57D570044E640 /* SNSDeleteEndpointRequestMarshaller.m */; };
+		65367D0818D9FA730033F326 /* SNSDeleteEndpointResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9617B57D570044E640 /* SNSDeleteEndpointResponse.m */; };
+		65367D0918D9FA730033F326 /* SNSDeleteEndpointResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9717B57D570044E640 /* SNSDeleteEndpointResponseUnmarshaller.m */; };
+		65367D0A18D9FA730033F326 /* SNSDeletePlatformApplicationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9817B57D570044E640 /* SNSDeletePlatformApplicationRequest.m */; };
+		65367D0B18D9FA730033F326 /* SNSDeletePlatformApplicationRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9917B57D570044E640 /* SNSDeletePlatformApplicationRequestMarshaller.m */; };
+		65367D0C18D9FA730033F326 /* SNSDeletePlatformApplicationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9A17B57D570044E640 /* SNSDeletePlatformApplicationResponse.m */; };
+		65367D0D18D9FA730033F326 /* SNSDeletePlatformApplicationResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9B17B57D570044E640 /* SNSDeletePlatformApplicationResponseUnmarshaller.m */; };
+		65367D0E18D9FA730033F326 /* SNSDeleteTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9C17B57D570044E640 /* SNSDeleteTopicRequest.m */; };
+		65367D0F18D9FA730033F326 /* SNSDeleteTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9D17B57D570044E640 /* SNSDeleteTopicRequestMarshaller.m */; };
+		65367D1018D9FA730033F326 /* SNSDeleteTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9E17B57D570044E640 /* SNSDeleteTopicResponse.m */; };
+		65367D1118D9FA730033F326 /* SNSDeleteTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97F9F17B57D570044E640 /* SNSDeleteTopicResponseUnmarshaller.m */; };
+		65367D1218D9FA730033F326 /* SNSEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA017B57D570044E640 /* SNSEndpoint.m */; };
+		65367D1318D9FA730033F326 /* SNSEndpointDisabledException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA117B57D570044E640 /* SNSEndpointDisabledException.m */; };
+		65367D1418D9FA730033F326 /* SNSEndpointUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA217B57D570044E640 /* SNSEndpointUnmarshaller.m */; };
+		65367D1518D9FA730033F326 /* SNSGetEndpointAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA317B57D570044E640 /* SNSGetEndpointAttributesRequest.m */; };
+		65367D1618D9FA730033F326 /* SNSGetEndpointAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA417B57D570044E640 /* SNSGetEndpointAttributesRequestMarshaller.m */; };
+		65367D1718D9FA730033F326 /* SNSGetEndpointAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA517B57D570044E640 /* SNSGetEndpointAttributesResponse.m */; };
+		65367D1818D9FA730033F326 /* SNSGetEndpointAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA617B57D570044E640 /* SNSGetEndpointAttributesResponseUnmarshaller.m */; };
+		65367D1918D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA717B57D570044E640 /* SNSGetPlatformApplicationAttributesRequest.m */; };
+		65367D1A18D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA817B57D570044E640 /* SNSGetPlatformApplicationAttributesRequestMarshaller.m */; };
+		65367D1B18D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FA917B57D570044E640 /* SNSGetPlatformApplicationAttributesResponse.m */; };
+		65367D1C18D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAA17B57D570044E640 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.m */; };
+		65367D1D18D9FA730033F326 /* SNSGetSubscriptionAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAB17B57D570044E640 /* SNSGetSubscriptionAttributesRequest.m */; };
+		65367D1E18D9FA730033F326 /* SNSGetSubscriptionAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAC17B57D570044E640 /* SNSGetSubscriptionAttributesRequestMarshaller.m */; };
+		65367D1F18D9FA730033F326 /* SNSGetSubscriptionAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAD17B57D570044E640 /* SNSGetSubscriptionAttributesResponse.m */; };
+		65367D2018D9FA730033F326 /* SNSGetSubscriptionAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAE17B57D570044E640 /* SNSGetSubscriptionAttributesResponseUnmarshaller.m */; };
+		65367D2118D9FA730033F326 /* SNSGetTopicAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FAF17B57D570044E640 /* SNSGetTopicAttributesRequest.m */; };
+		65367D2218D9FA730033F326 /* SNSGetTopicAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB017B57D570044E640 /* SNSGetTopicAttributesRequestMarshaller.m */; };
+		65367D2318D9FA730033F326 /* SNSGetTopicAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB117B57D570044E640 /* SNSGetTopicAttributesResponse.m */; };
+		65367D2418D9FA730033F326 /* SNSGetTopicAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB217B57D570044E640 /* SNSGetTopicAttributesResponseUnmarshaller.m */; };
+		65367D2518D9FA730033F326 /* SNSInternalErrorException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB317B57D570044E640 /* SNSInternalErrorException.m */; };
+		65367D2618D9FA730033F326 /* SNSInvalidParameterException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB417B57D570044E640 /* SNSInvalidParameterException.m */; };
+		65367D2718D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB517B57D570044E640 /* SNSListEndpointsByPlatformApplicationRequest.m */; };
+		65367D2818D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB617B57D570044E640 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.m */; };
+		65367D2918D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB717B57D570044E640 /* SNSListEndpointsByPlatformApplicationResponse.m */; };
+		65367D2A18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB817B57D570044E640 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.m */; };
+		65367D2B18D9FA730033F326 /* SNSListPlatformApplicationsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FB917B57D570044E640 /* SNSListPlatformApplicationsRequest.m */; };
+		65367D2C18D9FA730033F326 /* SNSListPlatformApplicationsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBA17B57D570044E640 /* SNSListPlatformApplicationsRequestMarshaller.m */; };
+		65367D2D18D9FA730033F326 /* SNSListPlatformApplicationsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBB17B57D570044E640 /* SNSListPlatformApplicationsResponse.m */; };
+		65367D2E18D9FA730033F326 /* SNSListPlatformApplicationsResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBC17B57D570044E640 /* SNSListPlatformApplicationsResponseUnmarshaller.m */; };
+		65367D2F18D9FA730033F326 /* SNSListSubscriptionsByTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBD17B57D570044E640 /* SNSListSubscriptionsByTopicRequest.m */; };
+		65367D3018D9FA730033F326 /* SNSListSubscriptionsByTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBE17B57D570044E640 /* SNSListSubscriptionsByTopicRequestMarshaller.m */; };
+		65367D3118D9FA730033F326 /* SNSListSubscriptionsByTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FBF17B57D570044E640 /* SNSListSubscriptionsByTopicResponse.m */; };
+		65367D3218D9FA730033F326 /* SNSListSubscriptionsByTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC017B57D570044E640 /* SNSListSubscriptionsByTopicResponseUnmarshaller.m */; };
+		65367D3318D9FA730033F326 /* SNSListSubscriptionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC117B57D570044E640 /* SNSListSubscriptionsRequest.m */; };
+		65367D3418D9FA730033F326 /* SNSListSubscriptionsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC217B57D570044E640 /* SNSListSubscriptionsRequestMarshaller.m */; };
+		65367D3518D9FA730033F326 /* SNSListSubscriptionsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC317B57D570044E640 /* SNSListSubscriptionsResponse.m */; };
+		65367D3618D9FA730033F326 /* SNSListSubscriptionsResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC417B57D580044E640 /* SNSListSubscriptionsResponseUnmarshaller.m */; };
+		65367D3718D9FA730033F326 /* SNSListTopicsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC517B57D580044E640 /* SNSListTopicsRequest.m */; };
+		65367D3818D9FA730033F326 /* SNSListTopicsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC617B57D580044E640 /* SNSListTopicsRequestMarshaller.m */; };
+		65367D3918D9FA730033F326 /* SNSListTopicsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC717B57D580044E640 /* SNSListTopicsResponse.m */; };
+		65367D3A18D9FA730033F326 /* SNSListTopicsResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC817B57D580044E640 /* SNSListTopicsResponseUnmarshaller.m */; };
+		65367D3B18D9FA730033F326 /* SNSNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FC917B57D580044E640 /* SNSNotFoundException.m */; };
+		65367D3C18D9FA730033F326 /* SNSPlatformApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCA17B57D580044E640 /* SNSPlatformApplication.m */; };
+		65367D3D18D9FA730033F326 /* SNSPlatformApplicationDisabledException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCB17B57D580044E640 /* SNSPlatformApplicationDisabledException.m */; };
+		65367D3E18D9FA730033F326 /* SNSPlatformApplicationUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCC17B57D580044E640 /* SNSPlatformApplicationUnmarshaller.m */; };
+		65367D3F18D9FA730033F326 /* SNSPublishRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCD17B57D580044E640 /* SNSPublishRequest.m */; };
+		65367D4018D9FA730033F326 /* SNSPublishRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCE17B57D580044E640 /* SNSPublishRequestMarshaller.m */; };
+		65367D4118D9FA730033F326 /* SNSPublishResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FCF17B57D580044E640 /* SNSPublishResponse.m */; };
+		65367D4218D9FA730033F326 /* SNSPublishResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD017B57D580044E640 /* SNSPublishResponseUnmarshaller.m */; };
+		65367D4318D9FA730033F326 /* SNSRemovePermissionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD117B57D580044E640 /* SNSRemovePermissionRequest.m */; };
+		65367D4418D9FA730033F326 /* SNSRemovePermissionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD217B57D580044E640 /* SNSRemovePermissionRequestMarshaller.m */; };
+		65367D4518D9FA730033F326 /* SNSRemovePermissionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD317B57D580044E640 /* SNSRemovePermissionResponse.m */; };
+		65367D4618D9FA730033F326 /* SNSRemovePermissionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD417B57D580044E640 /* SNSRemovePermissionResponseUnmarshaller.m */; };
+		65367D4718D9FA730033F326 /* SNSSetEndpointAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD517B57D580044E640 /* SNSSetEndpointAttributesRequest.m */; };
+		65367D4818D9FA730033F326 /* SNSSetEndpointAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD617B57D580044E640 /* SNSSetEndpointAttributesRequestMarshaller.m */; };
+		65367D4918D9FA730033F326 /* SNSSetEndpointAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD717B57D580044E640 /* SNSSetEndpointAttributesResponse.m */; };
+		65367D4A18D9FA730033F326 /* SNSSetEndpointAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD817B57D580044E640 /* SNSSetEndpointAttributesResponseUnmarshaller.m */; };
+		65367D4B18D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FD917B57D580044E640 /* SNSSetPlatformApplicationAttributesRequest.m */; };
+		65367D4C18D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDA17B57D580044E640 /* SNSSetPlatformApplicationAttributesRequestMarshaller.m */; };
+		65367D4D18D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDB17B57D580044E640 /* SNSSetPlatformApplicationAttributesResponse.m */; };
+		65367D4E18D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDC17B57D580044E640 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.m */; };
+		65367D4F18D9FA730033F326 /* SNSSetSubscriptionAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDD17B57D580044E640 /* SNSSetSubscriptionAttributesRequest.m */; };
+		65367D5018D9FA730033F326 /* SNSSetSubscriptionAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDE17B57D580044E640 /* SNSSetSubscriptionAttributesRequestMarshaller.m */; };
+		65367D5118D9FA730033F326 /* SNSSetSubscriptionAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FDF17B57D580044E640 /* SNSSetSubscriptionAttributesResponse.m */; };
+		65367D5218D9FA730033F326 /* SNSSetSubscriptionAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE017B57D580044E640 /* SNSSetSubscriptionAttributesResponseUnmarshaller.m */; };
+		65367D5318D9FA730033F326 /* SNSSetTopicAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE117B57D580044E640 /* SNSSetTopicAttributesRequest.m */; };
+		65367D5418D9FA730033F326 /* SNSSetTopicAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE217B57D580044E640 /* SNSSetTopicAttributesRequestMarshaller.m */; };
+		65367D5518D9FA730033F326 /* SNSSetTopicAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE317B57D580044E640 /* SNSSetTopicAttributesResponse.m */; };
+		65367D5618D9FA730033F326 /* SNSSetTopicAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE417B57D580044E640 /* SNSSetTopicAttributesResponseUnmarshaller.m */; };
+		65367D5718D9FA730033F326 /* SNSSubscribeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE517B57D580044E640 /* SNSSubscribeRequest.m */; };
+		65367D5818D9FA730033F326 /* SNSSubscribeRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE617B57D580044E640 /* SNSSubscribeRequestMarshaller.m */; };
+		65367D5918D9FA730033F326 /* SNSSubscribeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE717B57D580044E640 /* SNSSubscribeResponse.m */; };
+		65367D5A18D9FA730033F326 /* SNSSubscribeResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE817B57D580044E640 /* SNSSubscribeResponseUnmarshaller.m */; };
+		65367D5B18D9FA730033F326 /* SNSSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FE917B57D580044E640 /* SNSSubscription.m */; };
+		65367D5C18D9FA730033F326 /* SNSSubscriptionLimitExceededException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FEA17B57D580044E640 /* SNSSubscriptionLimitExceededException.m */; };
+		65367D5D18D9FA730033F326 /* SNSSubscriptionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FEB17B57D580044E640 /* SNSSubscriptionUnmarshaller.m */; };
+		65367D5E18D9FA730033F326 /* SNSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FEC17B57D580044E640 /* SNSTopic.m */; };
+		65367D5F18D9FA730033F326 /* SNSTopicLimitExceededException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FED17B57D580044E640 /* SNSTopicLimitExceededException.m */; };
+		65367D6018D9FA730033F326 /* SNSTopicUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FEE17B57D580044E640 /* SNSTopicUnmarshaller.m */; };
+		65367D6118D9FA730033F326 /* SNSUnsubscribeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FEF17B57D580044E640 /* SNSUnsubscribeRequest.m */; };
+		65367D6218D9FA730033F326 /* SNSUnsubscribeRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF017B57D580044E640 /* SNSUnsubscribeRequestMarshaller.m */; };
+		65367D6318D9FA730033F326 /* SNSUnsubscribeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF117B57D580044E640 /* SNSUnsubscribeResponse.m */; };
+		65367D6418D9FA730033F326 /* SNSUnsubscribeResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF217B57D580044E640 /* SNSUnsubscribeResponseUnmarshaller.m */; };
+		65367D6518D9FA730033F326 /* SNSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF317B57D580044E640 /* SNSRequest.m */; };
+		65367D6618D9FA730033F326 /* SNSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF417B57D580044E640 /* SNSResponse.m */; };
+		65367D6718D9FA730033F326 /* SNSResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C97FF517B57D580044E640 /* SNSResponseUnmarshaller.m */; };
+		65367D6918D9FA730033F326 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96C1A9158BC2A70084D3CB /* MobileCoreServices.framework */; };
+		65367D6A18D9FA730033F326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		CE96C1B7158BD58A0084D3CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96C1A9158BC2A70084D3CB /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
@@ -496,6 +739,7 @@
 		38C97FF317B57D580044E640 /* SNSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSRequest.m; sourceTree = "<group>"; };
 		38C97FF417B57D580044E640 /* SNSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSResponse.m; sourceTree = "<group>"; };
 		38C97FF517B57D580044E640 /* SNSResponseUnmarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSResponseUnmarshaller.m; sourceTree = "<group>"; };
+		65367D7018D9FA730033F326 /* libSNSOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSNSOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA747D9E0F9514B9006C5449 /* SNS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNS_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE96C1A9158BC2A70084D3CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -503,6 +747,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65367D6818D9FA730033F326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65367D6918D9FA730033F326 /* MobileCoreServices.framework in Frameworks */,
+				65367D6A18D9FA730033F326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,6 +772,7 @@
 			isa = PBXGroup;
 			children = (
 				D069663F1234D53400BFBB1E /* libSNS.a */,
+				65367D7018D9FA730033F326 /* libSNSOSX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -836,6 +1090,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		65367C7518D9FA730033F326 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65367C7618D9FA730033F326 /* AmazonSNSClient.h in Headers */,
+				65367C7718D9FA730033F326 /* AWSSNS.h in Headers */,
+				65367C7818D9FA730033F326 /* SNSAddPermissionRequest.h in Headers */,
+				65367C7918D9FA730033F326 /* SNSAddPermissionRequestMarshaller.h in Headers */,
+				65367C7A18D9FA730033F326 /* SNSAddPermissionResponse.h in Headers */,
+				65367C7B18D9FA730033F326 /* SNSAddPermissionResponseUnmarshaller.h in Headers */,
+				65367C7C18D9FA730033F326 /* SNSAuthorizationErrorException.h in Headers */,
+				65367C7D18D9FA730033F326 /* SNSConfirmSubscriptionRequest.h in Headers */,
+				65367C7E18D9FA730033F326 /* SNSConfirmSubscriptionRequestMarshaller.h in Headers */,
+				65367C7F18D9FA730033F326 /* SNSConfirmSubscriptionResponse.h in Headers */,
+				65367C8018D9FA730033F326 /* SNSConfirmSubscriptionResponseUnmarshaller.h in Headers */,
+				65367C8118D9FA730033F326 /* SNSCreatePlatformApplicationRequest.h in Headers */,
+				65367C8218D9FA730033F326 /* SNSCreatePlatformApplicationRequestMarshaller.h in Headers */,
+				65367C8318D9FA730033F326 /* SNSCreatePlatformApplicationResponse.h in Headers */,
+				65367C8418D9FA730033F326 /* SNSCreatePlatformApplicationResponseUnmarshaller.h in Headers */,
+				65367C8518D9FA730033F326 /* SNSCreatePlatformEndpointRequest.h in Headers */,
+				65367C8618D9FA730033F326 /* SNSCreatePlatformEndpointRequestMarshaller.h in Headers */,
+				65367C8718D9FA730033F326 /* SNSCreatePlatformEndpointResponse.h in Headers */,
+				65367C8818D9FA730033F326 /* SNSCreatePlatformEndpointResponseUnmarshaller.h in Headers */,
+				65367C8918D9FA730033F326 /* SNSCreateTopicRequest.h in Headers */,
+				65367C8A18D9FA730033F326 /* SNSCreateTopicRequestMarshaller.h in Headers */,
+				65367C8B18D9FA730033F326 /* SNSCreateTopicResponse.h in Headers */,
+				65367C8C18D9FA730033F326 /* SNSCreateTopicResponseUnmarshaller.h in Headers */,
+				65367C8D18D9FA730033F326 /* SNSDeleteEndpointRequest.h in Headers */,
+				65367C8E18D9FA730033F326 /* SNSDeleteEndpointRequestMarshaller.h in Headers */,
+				65367C8F18D9FA730033F326 /* SNSDeleteEndpointResponse.h in Headers */,
+				65367C9018D9FA730033F326 /* SNSDeleteEndpointResponseUnmarshaller.h in Headers */,
+				65367C9118D9FA730033F326 /* SNSDeletePlatformApplicationRequest.h in Headers */,
+				65367C9218D9FA730033F326 /* SNSDeletePlatformApplicationRequestMarshaller.h in Headers */,
+				65367C9318D9FA730033F326 /* SNSDeletePlatformApplicationResponse.h in Headers */,
+				65367C9418D9FA730033F326 /* SNSDeletePlatformApplicationResponseUnmarshaller.h in Headers */,
+				65367C9518D9FA730033F326 /* SNSDeleteTopicRequest.h in Headers */,
+				65367C9618D9FA730033F326 /* SNSDeleteTopicRequestMarshaller.h in Headers */,
+				65367C9718D9FA730033F326 /* SNSDeleteTopicResponse.h in Headers */,
+				65367C9818D9FA730033F326 /* SNSDeleteTopicResponseUnmarshaller.h in Headers */,
+				65367C9918D9FA730033F326 /* SNSEndpoint.h in Headers */,
+				65367C9A18D9FA730033F326 /* SNSEndpointDisabledException.h in Headers */,
+				65367C9B18D9FA730033F326 /* SNSEndpointUnmarshaller.h in Headers */,
+				65367C9C18D9FA730033F326 /* SNSGetEndpointAttributesRequest.h in Headers */,
+				65367C9D18D9FA730033F326 /* SNSGetEndpointAttributesRequestMarshaller.h in Headers */,
+				65367C9E18D9FA730033F326 /* SNSGetEndpointAttributesResponse.h in Headers */,
+				65367C9F18D9FA730033F326 /* SNSGetEndpointAttributesResponseUnmarshaller.h in Headers */,
+				65367CA018D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequest.h in Headers */,
+				65367CA118D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequestMarshaller.h in Headers */,
+				65367CA218D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponse.h in Headers */,
+				65367CA318D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.h in Headers */,
+				65367CA418D9FA730033F326 /* SNSGetSubscriptionAttributesRequest.h in Headers */,
+				65367CA518D9FA730033F326 /* SNSGetSubscriptionAttributesRequestMarshaller.h in Headers */,
+				65367CA618D9FA730033F326 /* SNSGetSubscriptionAttributesResponse.h in Headers */,
+				65367CA718D9FA730033F326 /* SNSGetSubscriptionAttributesResponseUnmarshaller.h in Headers */,
+				65367CA818D9FA730033F326 /* SNSGetTopicAttributesRequest.h in Headers */,
+				65367CA918D9FA730033F326 /* SNSGetTopicAttributesRequestMarshaller.h in Headers */,
+				65367CAA18D9FA730033F326 /* SNSGetTopicAttributesResponse.h in Headers */,
+				65367CAB18D9FA730033F326 /* SNSGetTopicAttributesResponseUnmarshaller.h in Headers */,
+				65367CAC18D9FA730033F326 /* SNSInternalErrorException.h in Headers */,
+				65367CAD18D9FA730033F326 /* SNSInvalidParameterException.h in Headers */,
+				65367CAE18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequest.h in Headers */,
+				65367CAF18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.h in Headers */,
+				65367CB018D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponse.h in Headers */,
+				65367CB118D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.h in Headers */,
+				65367CB218D9FA730033F326 /* SNSListPlatformApplicationsRequest.h in Headers */,
+				65367CB318D9FA730033F326 /* SNSListPlatformApplicationsRequestMarshaller.h in Headers */,
+				65367CB418D9FA730033F326 /* SNSListPlatformApplicationsResponse.h in Headers */,
+				65367CB518D9FA730033F326 /* SNSListPlatformApplicationsResponseUnmarshaller.h in Headers */,
+				65367CB618D9FA730033F326 /* SNSListSubscriptionsByTopicRequest.h in Headers */,
+				65367CB718D9FA730033F326 /* SNSListSubscriptionsByTopicRequestMarshaller.h in Headers */,
+				65367CB818D9FA730033F326 /* SNSListSubscriptionsByTopicResponse.h in Headers */,
+				65367CB918D9FA730033F326 /* SNSListSubscriptionsByTopicResponseUnmarshaller.h in Headers */,
+				65367CBA18D9FA730033F326 /* SNSListSubscriptionsRequest.h in Headers */,
+				65367CBB18D9FA730033F326 /* SNSListSubscriptionsRequestMarshaller.h in Headers */,
+				65367CBC18D9FA730033F326 /* SNSListSubscriptionsResponse.h in Headers */,
+				65367CBD18D9FA730033F326 /* SNSListSubscriptionsResponseUnmarshaller.h in Headers */,
+				65367CBE18D9FA730033F326 /* SNSListTopicsRequest.h in Headers */,
+				65367CBF18D9FA730033F326 /* SNSListTopicsRequestMarshaller.h in Headers */,
+				65367CC018D9FA730033F326 /* SNSListTopicsResponse.h in Headers */,
+				65367CC118D9FA730033F326 /* SNSListTopicsResponseUnmarshaller.h in Headers */,
+				65367CC218D9FA730033F326 /* SNSNotFoundException.h in Headers */,
+				65367CC318D9FA730033F326 /* SNSPlatformApplication.h in Headers */,
+				65367CC418D9FA730033F326 /* SNSPlatformApplicationDisabledException.h in Headers */,
+				65367CC518D9FA730033F326 /* SNSPlatformApplicationUnmarshaller.h in Headers */,
+				65367CC618D9FA730033F326 /* SNSPublishRequest.h in Headers */,
+				65367CC718D9FA730033F326 /* SNSPublishRequestMarshaller.h in Headers */,
+				65367CC818D9FA730033F326 /* SNSPublishResponse.h in Headers */,
+				65367CC918D9FA730033F326 /* SNSPublishResponseUnmarshaller.h in Headers */,
+				65367CCA18D9FA730033F326 /* SNSRemovePermissionRequest.h in Headers */,
+				65367CCB18D9FA730033F326 /* SNSRemovePermissionRequestMarshaller.h in Headers */,
+				65367CCC18D9FA730033F326 /* SNSRemovePermissionResponse.h in Headers */,
+				65367CCD18D9FA730033F326 /* SNSRemovePermissionResponseUnmarshaller.h in Headers */,
+				65367CCE18D9FA730033F326 /* SNSRequest.h in Headers */,
+				65367CCF18D9FA730033F326 /* SNSResponse.h in Headers */,
+				65367CD018D9FA730033F326 /* SNSResponseUnmarshaller.h in Headers */,
+				65367CD118D9FA730033F326 /* SNSSetEndpointAttributesRequest.h in Headers */,
+				65367CD218D9FA730033F326 /* SNSSetEndpointAttributesRequestMarshaller.h in Headers */,
+				65367CD318D9FA730033F326 /* SNSSetEndpointAttributesResponse.h in Headers */,
+				65367CD418D9FA730033F326 /* SNSSetEndpointAttributesResponseUnmarshaller.h in Headers */,
+				65367CD518D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequest.h in Headers */,
+				65367CD618D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequestMarshaller.h in Headers */,
+				65367CD718D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponse.h in Headers */,
+				65367CD818D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.h in Headers */,
+				65367CD918D9FA730033F326 /* SNSSetSubscriptionAttributesRequest.h in Headers */,
+				65367CDA18D9FA730033F326 /* SNSSetSubscriptionAttributesRequestMarshaller.h in Headers */,
+				65367CDB18D9FA730033F326 /* SNSSetSubscriptionAttributesResponse.h in Headers */,
+				65367CDC18D9FA730033F326 /* SNSSetSubscriptionAttributesResponseUnmarshaller.h in Headers */,
+				65367CDD18D9FA730033F326 /* SNSSetTopicAttributesRequest.h in Headers */,
+				65367CDE18D9FA730033F326 /* SNSSetTopicAttributesRequestMarshaller.h in Headers */,
+				65367CDF18D9FA730033F326 /* SNSSetTopicAttributesResponse.h in Headers */,
+				65367CE018D9FA730033F326 /* SNSSetTopicAttributesResponseUnmarshaller.h in Headers */,
+				65367CE118D9FA730033F326 /* SNSSubscribeRequest.h in Headers */,
+				65367CE218D9FA730033F326 /* SNSSubscribeRequestMarshaller.h in Headers */,
+				65367CE318D9FA730033F326 /* SNSSubscribeResponse.h in Headers */,
+				65367CE418D9FA730033F326 /* SNSSubscribeResponseUnmarshaller.h in Headers */,
+				65367CE518D9FA730033F326 /* SNSSubscription.h in Headers */,
+				65367CE618D9FA730033F326 /* SNSSubscriptionLimitExceededException.h in Headers */,
+				65367CE718D9FA730033F326 /* SNSSubscriptionUnmarshaller.h in Headers */,
+				65367CE818D9FA730033F326 /* SNSTopic.h in Headers */,
+				65367CE918D9FA730033F326 /* SNSTopicLimitExceededException.h in Headers */,
+				65367CEA18D9FA730033F326 /* SNSTopicUnmarshaller.h in Headers */,
+				65367CEB18D9FA730033F326 /* SNSUnsubscribeRequest.h in Headers */,
+				65367CEC18D9FA730033F326 /* SNSUnsubscribeRequestMarshaller.h in Headers */,
+				65367CED18D9FA730033F326 /* SNSUnsubscribeResponse.h in Headers */,
+				65367CEE18D9FA730033F326 /* SNSUnsubscribeResponseUnmarshaller.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -983,6 +1365,23 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
+		65367C7418D9FA730033F326 /* SNSOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65367D6B18D9FA730033F326 /* Build configuration list for PBXNativeTarget "SNSOSX" */;
+			buildPhases = (
+				65367C7518D9FA730033F326 /* Headers */,
+				65367CEF18D9FA730033F326 /* Sources */,
+				65367D6818D9FA730033F326 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSOSX;
+			productName = s3;
+			productReference = 65367D7018D9FA730033F326 /* libSNSOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		D2AAC07D0554694100DB518D /* SNS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SNS" */;
@@ -1006,7 +1405,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SNS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1024,12 +1423,140 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* SNS */,
+				65367C7418D9FA730033F326 /* SNSOSX */,
 				0AFD8DD7128465B4004B7863 /* Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65367CEF18D9FA730033F326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65367CF018D9FA730033F326 /* AmazonSNSClient.m in Sources */,
+				65367CF118D9FA730033F326 /* SNSAddPermissionRequest.m in Sources */,
+				65367CF218D9FA730033F326 /* SNSAddPermissionRequestMarshaller.m in Sources */,
+				65367CF318D9FA730033F326 /* SNSAddPermissionResponse.m in Sources */,
+				65367CF418D9FA730033F326 /* SNSAddPermissionResponseUnmarshaller.m in Sources */,
+				65367CF518D9FA730033F326 /* SNSAuthorizationErrorException.m in Sources */,
+				65367CF618D9FA730033F326 /* SNSConfirmSubscriptionRequest.m in Sources */,
+				65367CF718D9FA730033F326 /* SNSConfirmSubscriptionRequestMarshaller.m in Sources */,
+				65367CF818D9FA730033F326 /* SNSConfirmSubscriptionResponse.m in Sources */,
+				65367CF918D9FA730033F326 /* SNSConfirmSubscriptionResponseUnmarshaller.m in Sources */,
+				65367CFA18D9FA730033F326 /* SNSCreatePlatformApplicationRequest.m in Sources */,
+				65367CFB18D9FA730033F326 /* SNSCreatePlatformApplicationRequestMarshaller.m in Sources */,
+				65367CFC18D9FA730033F326 /* SNSCreatePlatformApplicationResponse.m in Sources */,
+				65367CFD18D9FA730033F326 /* SNSCreatePlatformApplicationResponseUnmarshaller.m in Sources */,
+				65367CFE18D9FA730033F326 /* SNSCreatePlatformEndpointRequest.m in Sources */,
+				65367CFF18D9FA730033F326 /* SNSCreatePlatformEndpointRequestMarshaller.m in Sources */,
+				65367D0018D9FA730033F326 /* SNSCreatePlatformEndpointResponse.m in Sources */,
+				65367D0118D9FA730033F326 /* SNSCreatePlatformEndpointResponseUnmarshaller.m in Sources */,
+				65367D0218D9FA730033F326 /* SNSCreateTopicRequest.m in Sources */,
+				65367D0318D9FA730033F326 /* SNSCreateTopicRequestMarshaller.m in Sources */,
+				65367D0418D9FA730033F326 /* SNSCreateTopicResponse.m in Sources */,
+				65367D0518D9FA730033F326 /* SNSCreateTopicResponseUnmarshaller.m in Sources */,
+				65367D0618D9FA730033F326 /* SNSDeleteEndpointRequest.m in Sources */,
+				65367D0718D9FA730033F326 /* SNSDeleteEndpointRequestMarshaller.m in Sources */,
+				65367D0818D9FA730033F326 /* SNSDeleteEndpointResponse.m in Sources */,
+				65367D0918D9FA730033F326 /* SNSDeleteEndpointResponseUnmarshaller.m in Sources */,
+				65367D0A18D9FA730033F326 /* SNSDeletePlatformApplicationRequest.m in Sources */,
+				65367D0B18D9FA730033F326 /* SNSDeletePlatformApplicationRequestMarshaller.m in Sources */,
+				65367D0C18D9FA730033F326 /* SNSDeletePlatformApplicationResponse.m in Sources */,
+				65367D0D18D9FA730033F326 /* SNSDeletePlatformApplicationResponseUnmarshaller.m in Sources */,
+				65367D0E18D9FA730033F326 /* SNSDeleteTopicRequest.m in Sources */,
+				65367D0F18D9FA730033F326 /* SNSDeleteTopicRequestMarshaller.m in Sources */,
+				65367D1018D9FA730033F326 /* SNSDeleteTopicResponse.m in Sources */,
+				65367D1118D9FA730033F326 /* SNSDeleteTopicResponseUnmarshaller.m in Sources */,
+				65367D1218D9FA730033F326 /* SNSEndpoint.m in Sources */,
+				65367D1318D9FA730033F326 /* SNSEndpointDisabledException.m in Sources */,
+				65367D1418D9FA730033F326 /* SNSEndpointUnmarshaller.m in Sources */,
+				65367D1518D9FA730033F326 /* SNSGetEndpointAttributesRequest.m in Sources */,
+				65367D1618D9FA730033F326 /* SNSGetEndpointAttributesRequestMarshaller.m in Sources */,
+				65367D1718D9FA730033F326 /* SNSGetEndpointAttributesResponse.m in Sources */,
+				65367D1818D9FA730033F326 /* SNSGetEndpointAttributesResponseUnmarshaller.m in Sources */,
+				65367D1918D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequest.m in Sources */,
+				65367D1A18D9FA730033F326 /* SNSGetPlatformApplicationAttributesRequestMarshaller.m in Sources */,
+				65367D1B18D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponse.m in Sources */,
+				65367D1C18D9FA730033F326 /* SNSGetPlatformApplicationAttributesResponseUnmarshaller.m in Sources */,
+				65367D1D18D9FA730033F326 /* SNSGetSubscriptionAttributesRequest.m in Sources */,
+				65367D1E18D9FA730033F326 /* SNSGetSubscriptionAttributesRequestMarshaller.m in Sources */,
+				65367D1F18D9FA730033F326 /* SNSGetSubscriptionAttributesResponse.m in Sources */,
+				65367D2018D9FA730033F326 /* SNSGetSubscriptionAttributesResponseUnmarshaller.m in Sources */,
+				65367D2118D9FA730033F326 /* SNSGetTopicAttributesRequest.m in Sources */,
+				65367D2218D9FA730033F326 /* SNSGetTopicAttributesRequestMarshaller.m in Sources */,
+				65367D2318D9FA730033F326 /* SNSGetTopicAttributesResponse.m in Sources */,
+				65367D2418D9FA730033F326 /* SNSGetTopicAttributesResponseUnmarshaller.m in Sources */,
+				65367D2518D9FA730033F326 /* SNSInternalErrorException.m in Sources */,
+				65367D2618D9FA730033F326 /* SNSInvalidParameterException.m in Sources */,
+				65367D2718D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequest.m in Sources */,
+				65367D2818D9FA730033F326 /* SNSListEndpointsByPlatformApplicationRequestMarshaller.m in Sources */,
+				65367D2918D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponse.m in Sources */,
+				65367D2A18D9FA730033F326 /* SNSListEndpointsByPlatformApplicationResponseUnmarshaller.m in Sources */,
+				65367D2B18D9FA730033F326 /* SNSListPlatformApplicationsRequest.m in Sources */,
+				65367D2C18D9FA730033F326 /* SNSListPlatformApplicationsRequestMarshaller.m in Sources */,
+				65367D2D18D9FA730033F326 /* SNSListPlatformApplicationsResponse.m in Sources */,
+				65367D2E18D9FA730033F326 /* SNSListPlatformApplicationsResponseUnmarshaller.m in Sources */,
+				65367D2F18D9FA730033F326 /* SNSListSubscriptionsByTopicRequest.m in Sources */,
+				65367D3018D9FA730033F326 /* SNSListSubscriptionsByTopicRequestMarshaller.m in Sources */,
+				65367D3118D9FA730033F326 /* SNSListSubscriptionsByTopicResponse.m in Sources */,
+				65367D3218D9FA730033F326 /* SNSListSubscriptionsByTopicResponseUnmarshaller.m in Sources */,
+				65367D3318D9FA730033F326 /* SNSListSubscriptionsRequest.m in Sources */,
+				65367D3418D9FA730033F326 /* SNSListSubscriptionsRequestMarshaller.m in Sources */,
+				65367D3518D9FA730033F326 /* SNSListSubscriptionsResponse.m in Sources */,
+				65367D3618D9FA730033F326 /* SNSListSubscriptionsResponseUnmarshaller.m in Sources */,
+				65367D3718D9FA730033F326 /* SNSListTopicsRequest.m in Sources */,
+				65367D3818D9FA730033F326 /* SNSListTopicsRequestMarshaller.m in Sources */,
+				65367D3918D9FA730033F326 /* SNSListTopicsResponse.m in Sources */,
+				65367D3A18D9FA730033F326 /* SNSListTopicsResponseUnmarshaller.m in Sources */,
+				65367D3B18D9FA730033F326 /* SNSNotFoundException.m in Sources */,
+				65367D3C18D9FA730033F326 /* SNSPlatformApplication.m in Sources */,
+				65367D3D18D9FA730033F326 /* SNSPlatformApplicationDisabledException.m in Sources */,
+				65367D3E18D9FA730033F326 /* SNSPlatformApplicationUnmarshaller.m in Sources */,
+				65367D3F18D9FA730033F326 /* SNSPublishRequest.m in Sources */,
+				65367D4018D9FA730033F326 /* SNSPublishRequestMarshaller.m in Sources */,
+				65367D4118D9FA730033F326 /* SNSPublishResponse.m in Sources */,
+				65367D4218D9FA730033F326 /* SNSPublishResponseUnmarshaller.m in Sources */,
+				65367D4318D9FA730033F326 /* SNSRemovePermissionRequest.m in Sources */,
+				65367D4418D9FA730033F326 /* SNSRemovePermissionRequestMarshaller.m in Sources */,
+				65367D4518D9FA730033F326 /* SNSRemovePermissionResponse.m in Sources */,
+				65367D4618D9FA730033F326 /* SNSRemovePermissionResponseUnmarshaller.m in Sources */,
+				65367D4718D9FA730033F326 /* SNSSetEndpointAttributesRequest.m in Sources */,
+				65367D4818D9FA730033F326 /* SNSSetEndpointAttributesRequestMarshaller.m in Sources */,
+				65367D4918D9FA730033F326 /* SNSSetEndpointAttributesResponse.m in Sources */,
+				65367D4A18D9FA730033F326 /* SNSSetEndpointAttributesResponseUnmarshaller.m in Sources */,
+				65367D4B18D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequest.m in Sources */,
+				65367D4C18D9FA730033F326 /* SNSSetPlatformApplicationAttributesRequestMarshaller.m in Sources */,
+				65367D4D18D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponse.m in Sources */,
+				65367D4E18D9FA730033F326 /* SNSSetPlatformApplicationAttributesResponseUnmarshaller.m in Sources */,
+				65367D4F18D9FA730033F326 /* SNSSetSubscriptionAttributesRequest.m in Sources */,
+				65367D5018D9FA730033F326 /* SNSSetSubscriptionAttributesRequestMarshaller.m in Sources */,
+				65367D5118D9FA730033F326 /* SNSSetSubscriptionAttributesResponse.m in Sources */,
+				65367D5218D9FA730033F326 /* SNSSetSubscriptionAttributesResponseUnmarshaller.m in Sources */,
+				65367D5318D9FA730033F326 /* SNSSetTopicAttributesRequest.m in Sources */,
+				65367D5418D9FA730033F326 /* SNSSetTopicAttributesRequestMarshaller.m in Sources */,
+				65367D5518D9FA730033F326 /* SNSSetTopicAttributesResponse.m in Sources */,
+				65367D5618D9FA730033F326 /* SNSSetTopicAttributesResponseUnmarshaller.m in Sources */,
+				65367D5718D9FA730033F326 /* SNSSubscribeRequest.m in Sources */,
+				65367D5818D9FA730033F326 /* SNSSubscribeRequestMarshaller.m in Sources */,
+				65367D5918D9FA730033F326 /* SNSSubscribeResponse.m in Sources */,
+				65367D5A18D9FA730033F326 /* SNSSubscribeResponseUnmarshaller.m in Sources */,
+				65367D5B18D9FA730033F326 /* SNSSubscription.m in Sources */,
+				65367D5C18D9FA730033F326 /* SNSSubscriptionLimitExceededException.m in Sources */,
+				65367D5D18D9FA730033F326 /* SNSSubscriptionUnmarshaller.m in Sources */,
+				65367D5E18D9FA730033F326 /* SNSTopic.m in Sources */,
+				65367D5F18D9FA730033F326 /* SNSTopicLimitExceededException.m in Sources */,
+				65367D6018D9FA730033F326 /* SNSTopicUnmarshaller.m in Sources */,
+				65367D6118D9FA730033F326 /* SNSUnsubscribeRequest.m in Sources */,
+				65367D6218D9FA730033F326 /* SNSUnsubscribeRequestMarshaller.m in Sources */,
+				65367D6318D9FA730033F326 /* SNSUnsubscribeResponse.m in Sources */,
+				65367D6418D9FA730033F326 /* SNSUnsubscribeResponseUnmarshaller.m in Sources */,
+				65367D6518D9FA730033F326 /* SNSRequest.m in Sources */,
+				65367D6618D9FA730033F326 /* SNSResponse.m in Sources */,
+				65367D6718D9FA730033F326 /* SNSResponseUnmarshaller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1201,10 +1728,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SNS;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1232,10 +1756,7 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SNS;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1246,7 +1767,6 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1256,7 +1776,7 @@
 					"include/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -1266,7 +1786,6 @@
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1283,10 +1802,111 @@
 			};
 			name = Release;
 		};
+		65367D6C18D9FA730033F326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/s3.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SNS_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SNSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65367D6D18D9FA730033F326 /* Debug64 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/s3.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SNS_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SNSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug64;
+		};
+		65367D6E18D9FA730033F326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/s3.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SNS_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"include/**",
+					"ThirdParty/**",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SNSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65367D6F18D9FA730033F326 /* Release64 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/s3.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SNS_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"include/**",
+					"ThirdParty/**",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SNSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release64;
+		};
 		CE187D0B17FCF39200544F3F /* Debug64 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1322,10 +1942,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SNS;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1347,7 +1964,6 @@
 		CE187D0E17FCF39700544F3F /* Release64 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1383,11 +1999,8 @@
 					"ThirdParty/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SNS;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1438,6 +2051,17 @@
 				CE187D0B17FCF39200544F3F /* Debug64 */,
 				1DEB922408733DC00010E9CD /* Release */,
 				CE187D0E17FCF39700544F3F /* Release64 */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65367D6B18D9FA730033F326 /* Build configuration list for PBXNativeTarget "SNSOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65367D6C18D9FA730033F326 /* Debug */,
+				65367D6D18D9FA730033F326 /* Debug64 */,
+				65367D6E18D9FA730033F326 /* Release */,
+				65367D6F18D9FA730033F326 /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
